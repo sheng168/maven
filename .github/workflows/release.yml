@@ -19,7 +19,7 @@ jobs:
           java-version: 1.8
 
       - name: Release Maven package
-        uses: samuelmeuli/action-maven-publish@v1
+        uses: sheng168/action-maven-publish@v1
         with:
           gpg_private_key: ${{ secrets.gpg_private_key }}
           gpg_passphrase: ${{ secrets.gpg_passphrase }}
